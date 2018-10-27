@@ -1,0 +1,7 @@
+var sumofmany=parseInt(Number(prompt("сколько у вас денег?")));
+var hmapple=Number(prompt("сколько €блок вы купили?"));
+var hmbread=Number(prompt("сколько штук хлеба вы вз€ли?"));
+var sumcoinofapple=parseInt(Number(prompt("сколько стоит одно €блоко?"))*hmapple);
+var sumcoinofbread=parseInt(Number(prompt("сколько стоит один хлеб?"))*hmbread);
+var justdochoose=Boolean(sumofmany>sumcoinofapple+sumcoinofbread);
+document.write(justdochoose);
