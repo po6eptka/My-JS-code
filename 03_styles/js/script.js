@@ -8,3 +8,5 @@ console.log(Colored.style);
 let quest = prompt('Какой цвет ты хочешь?'); 
 //Colored.style.backgroundColor = "blue";//
 Colored.style['background-color'] = quest; 
+
+//fdfdf//

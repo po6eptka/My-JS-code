@@ -14,3 +14,6 @@ const quest = prompt('Что хотите написать на странице
 
 byId.innerHTML = quest;
 firstBySelector.innerHTML = "<h2>Hello i am the first selector</h2>"
+
+
+//<!-- текст -->//

@@ -5,3 +5,5 @@ var sumcoinofapple=parseInt(Number(prompt("сколько стоит одно я
 var sumcoinofbread=parseInt(Number(prompt("сколько стоит один хлеб?"))*hmbread);
 var justdochoose=Boolean(sumofmany>=sumcoinofapple+sumcoinofbread);
 document.write(justdochoose);
+
+//<!-- текст -->//
