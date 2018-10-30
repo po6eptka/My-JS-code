@@ -14,10 +14,11 @@ let nameofpersonQuetion = prompt('Как зовут человека, котор
 nameofperson.innerHTML = "<h1>The person who inspires me is:<h1>" + nameofpersonQuetion;
 
 //imgadress//
-let varforimg = document.querySelector('img');
-let enterimgadress = prompt('Введите адрес картинки'); 
-varforimg.setAttribute('src', 'enterimgadress');
-console.log(varforimg.setAttribute('src', 'enterimgadress'));
+let Varforimg = document.querySelector('img');
+let enterimgadress = prompt('Введите адрес картинки');
+Varforimg.setAttribute('src',enterimgadress); 
+//Varforimg.innerHTML = "img src ='enterimgadress'"; 
+
 
 //textonpage//
 let textvar = document.querySelector('p');
