@@ -15,8 +15,15 @@ let coinofbread=parseInt(Number(prompt("сколько стоит один хл�
 
 
 
-let haveEnough = function (sumofmany, hmapple, hmbread, coinofapple, coinofbread) {
-      var justdochoose = Boolean(sumofmany >= (hmapple*coinofapple+hmbread*coinofbread));
+var haveEnough = function (sumofmany, hmapple, hmbread, coinofapple, coinofbread) {
+     if (sumofmany>=(hmapple*coinofapple+hmbread*coinofbread)) 
+     {
+     	return ('Вам хватает денег на покупку');
+     }
+     else 
+     {
+     	return ('Денег недостаточно');
+     }
 }
 
-if justdochoose 
+console.log(haveEnough());
