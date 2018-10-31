@@ -26,4 +26,4 @@ var haveEnough = function (sumofmany, hmapple, hmbread, coinofapple, coinofbread
      }
 }
 
-console.log(haveEnough());
+console.log(haveEnough(sumofmany, hmapple, hmbread, coinofapple, coinofbread));
