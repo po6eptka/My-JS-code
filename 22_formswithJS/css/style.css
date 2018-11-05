@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+body {
+	background-color: lightgrey;
+	font-size: 40px;
+}
+
+form {
+	border-color: black;
+	border-width: 1px;
+}
+label, input {
+	display: flex;
+	margin: 30px 550px;
+}
+
+input {
+	width: 20vw;
+	height: 10vh;
+}
+
+.result {
+	margin: 30px 550px;
+}
+
+/*fdfa*/
