@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+body {
+	background-color: lightgrey;
+}
+
+/*fdfa*/
+
+.block {
+height: 50px;
+margin: 10px;
+}
+
+h1, h2, h3 {
+	font-size: 50px;
+	font-style: italic;
+	margin: 20px;
+}
+
+p {
+	font-size: 25px;
+	margin: 10px;
+}
+
+.first.block {
+	background-color: red;
+}
+
+.second.block {
+	background-color: blue;
+}
+
+.third.block {
+	background-color: green;
+}
