@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+body {
+	background-color: lightblue;
+	font-size: 35px;
+	font-style: italic;
+}
+/*form {
+	margin:100px;
+}*/
+
+.result {
+	margin-left: 350px;
+	margin-top: 50px;
+}
+
+input, form {
+	display: flex;
+	margin:auto;
+	padding: 10px;
+}
+
+
+
+/*fdfa*/

@@ -1,0 +1,5 @@
+console.log('You are at' +window.location); 
+
+//<!-- текст -->//
+
+console.log(DATA);
